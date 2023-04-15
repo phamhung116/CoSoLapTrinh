@@ -7,5 +7,5 @@ if max<c: max=c
 min=a
 if min>b: min=b
 if min>c: min=c
-print('SLN:',max)
-print('SNN:',min)
+print('SLN:',max,sep='')
+print('SNN:',min,sep='')

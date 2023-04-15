@@ -1,7 +1,7 @@
 kw=float(input('Tieu thu='))
-if kw>=1 and kw<=100: gia=550
-elif kw>=101 and kw<=150: gia=750
-elif kw>=151 and kw<=200: gia=950
-elif kw>=201: tien=kw*1350
-tien=kw*gia+0.1
-print('Phai tra=',tien)
+if kw>=1 and kw<=100:tien=550*kw
+elif kw>=101 and kw<=150:tien=100*550+(kw-100)*750
+elif kw>=151 and kw<=200:tien=100*550+50*750+(kw-150)*950
+elif kw>=201:tien=100*550+50*750+50*950+(kw-200)*1350
+phaitra=tien+tien*0.1
+print('Phai tra=',phaitra,sep='')
