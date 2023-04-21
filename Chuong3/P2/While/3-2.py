@@ -1,4 +1,4 @@
-n=int(input('Nhap n:'))
+n=int(input('n='))
 i=1
 while i<=n:
     j=i
